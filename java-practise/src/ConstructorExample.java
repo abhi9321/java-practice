@@ -3,7 +3,7 @@ class Machine {
     private int code;
     
     public Machine() {
-        this("Arnie", 0);
+        this("Arnie", 0); // should be at the top
         
         System.out.println("Constructor running!");
     }
