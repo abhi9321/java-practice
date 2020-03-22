@@ -1,10 +1,16 @@
 class Baleno {
 	
 	public final static int CONST_DECLARE = 21;
+	public static int count = 0;
 	
 	int create_obj;
 	
 	static int  number;
+	
+	public Baleno() {
+		System.out.println("count now: "+count);
+		count++;
+	}
 	
 	
 	public void method1() {
@@ -40,6 +46,11 @@ public class StaticFinal {
 		Baleno.staticMethod2(); 
 		
 		System.out.println("constant is : " + Baleno.CONST_DECLARE);
+		
+		// normal method
+		Baleno obj2 = new Baleno();
+		obj2.create_obj = 5;
+		obj2.method1();
 		
 
 	}
