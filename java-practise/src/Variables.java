@@ -11,7 +11,7 @@ public class Variables {
 
 
         char myChar = 'y';
-        boolean myBoolean = false;
+        boolean myBoolean = true;
         
         byte myByte = 127;
         
