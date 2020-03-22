@@ -40,6 +40,36 @@ public class ArrayClass {
         System.out.println(arr_int.length);	
         
         
+        // multi dimensional arrays
+        
+        Integer[][] matrix = new Integer[3][3];
+
+        matrix[0][0] = 10;
+        matrix[0][1] = 20;
+        matrix[1][0] = 30;
+        matrix[1][1] = 40;
+        
+        System.out.println(matrix[0][1]);
+        for(int row=0; row < matrix.length; row++) {
+            for(int col=0; col < matrix[row].length; col++) {
+                System.out.print(matrix[row][col] + "\t");
+            }
+            
+            System.out.println();
+        }
+        
+        // other example
+        String[][] my_array = {{"a1","b1"},{"a2","b2"}};
+        
+        for (int row=0; row < my_array.length; row++) {
+        	for (int col=0; col < my_array[row].length; col++) {
+        		System.out.print(my_array[row][col] + "\t");
+        		
+        	}
+        	System.out.println();
+        }
+        
+        
         
         
       
