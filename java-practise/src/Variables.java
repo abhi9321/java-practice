@@ -8,7 +8,8 @@ public class Variables {
         
         double myDouble = 7.3243;
         float myFloat = 324.38f;
-        
+
+
         char myChar = 'y';
         boolean myBoolean = false;
         
