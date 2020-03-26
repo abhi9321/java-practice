@@ -13,7 +13,7 @@ public class Solution2 {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double d = scan.nextDouble();
-//        String s = scan.next();
+        
         scan.nextLine();
         String s = scan.nextLine();
         scan.close();
